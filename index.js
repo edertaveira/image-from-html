@@ -75,7 +75,7 @@ function parseCharacters(content) {
   return content;
 }
 
-const convertToImage = elementId => {
+module.exports.toCanvas = function(elementId) {
   Promise.resolve().then(() => {
     const element = document.getElementById(elementId);
     if (element !== null) {
@@ -84,5 +84,3 @@ const convertToImage = elementId => {
     }
   });
 };
-
-module.exports = convertToImage;
