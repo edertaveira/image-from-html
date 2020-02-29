@@ -22,3 +22,24 @@ imageFromHtml.toCanvas('test');
 ```
 
 - The param `test` would be the HTML element ID that you need transform.
+
+### React Example
+
+```
+import React, { useEffect } from "react";
+import imageFromHtml from "image-from-html";
+
+export default function App() {
+  useEffect(() => {
+    imageFromHtml.toCanvas("test");
+  }, []);
+
+  return (
+    <div className="App" id="test">
+      <h1>Title to Image</h1>
+      <h2>Subtitle here!</h2>
+    </div>
+  );
+}
+
+```

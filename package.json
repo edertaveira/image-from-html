@@ -1,6 +1,6 @@
 {
   "name": "image-from-html",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "To transform a html code to canvas or image fast.",
   "main": "index.js",
   "scripts": {
