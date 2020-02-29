@@ -80,7 +80,7 @@ module.exports.toCanvas = function(elementId) {
     const element = document.getElementById(elementId);
     if (element !== null) {
       const content = parseCharacters(element.innerHTML);
-      htmlToCanvas(content, element.offsetWidth, element.offsetHeight, element);
+      htmlToCanvas(content, element.offsetWidth, element.offsetHeight + 30, element);
     }
   });
 };
