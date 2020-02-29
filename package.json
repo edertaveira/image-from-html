@@ -1,6 +1,6 @@
 {
-  "name": "@edertaveira/image-from-html",
-  "version": "0.0.1",
+  "name": "image-from-html",
+  "version": "0.0.2",
   "description": "To transform a html code to canvas or image fast.",
   "main": "index.js",
   "scripts": {

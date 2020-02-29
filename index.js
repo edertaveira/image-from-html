@@ -79,7 +79,7 @@ module.exports.toCanvas = function(elementId) {
   Promise.resolve().then(() => {
     const element = document.getElementById(elementId);
     if (element !== null) {
-      content = parseCharacters(element.innerHTML);
+      const content = parseCharacters(element.innerHTML);
       htmlToCanvas(content, element.offsetWidth, element.offsetHeight, element);
     }
   });
