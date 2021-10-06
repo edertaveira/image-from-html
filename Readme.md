@@ -1,6 +1,6 @@
 ### Description
 
-Image from HTML is a simple form to transform a HTML element to canvas and then image. 
+Image from HTML is a simple form to transform a HTML element to canvas and image. 
 
 ### Installing
 
